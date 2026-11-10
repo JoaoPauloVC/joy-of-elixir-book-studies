@@ -1,0 +1,60 @@
+@page {
+  size: letter;
+}
+body {
+  font-size: 10pt;
+}
+
+.wrapper {
+  border: 0;
+}
+
+p,
+aside,
+.todo,
+.grouped {
+  page-break-inside: avoid;
+}
+
+pre {
+  widows: 5;
+  orphans: 5;
+}
+
+section {
+  orphans: 0;
+  widows: 0;
+}
+
+section.major {
+  page-break-before: always;
+  page-break-after: always;
+}
+
+nav,
+footer {
+  display: none;
+}
+
+.part-header {
+  page-break-before: always;
+  page-break-after: always;
+  text-align: center;
+}
+
+.break {
+  page-break-before: always;
+}
+
+.cover {
+  margin-top: 50%;
+  font-size: 100pt;
+  page-break-after: always;
+}
+
+article figure img {
+  max-width: 75vw;
+  max-height: 40vw;
+}
+
+/*# sourceMappingURL=print.css.map */
