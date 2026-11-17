@@ -50,4 +50,4 @@ case File.write("exercise-1-chapter-11.exs", phrase) do
   {:error, reason} -> {:error, reason}
 end
 
-# Lembre de rdar o arquivo gerado rodando no terminal o comando "elixir exercise-1-chapter-11.exs"
+# Lembre de rodar o arquivo gerado rodando no terminal o comando "elixir exercise-1-chapter-11.exs"

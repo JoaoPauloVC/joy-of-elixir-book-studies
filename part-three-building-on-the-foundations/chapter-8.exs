@@ -26,3 +26,7 @@ IO.puts("Foi o/a #{pessoa}, no/na #{lugar} com o/a #{objeto}!\n")
 # Ponder on what happens when you remove the IO.puts from the beggining of Line 8
 # in the first part (you can run the script and comment it if you want). Think
 # about how this would be different if you put that code into and iex prompt.
+
+
+# Answer: O código roda mas o usuário não tem um retorno para saber se algo aconteceu, se
+# o programa rodou, ou qualquer coisa do gênero, após ter respondido as questões trazidas.
